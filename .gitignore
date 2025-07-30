@@ -1,0 +1,74 @@
+# ───── Python bytecode ─────
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ───── Virtual environments ─────
+.venv/
+venv/
+env/
+
+# ───── Environment variable files ─────
+.env
+.env.*.local
+.env.*
+
+# ───── OS-specific files ─────
+.DS_Store
+Thumbs.db
+
+# ───── IDE settings (editor agnostic, safe ignores) ─────
+
+# IntelliJ / PyCharm / WebStorm
+.idea/
+*.iml
+# Keep only general project config
+!.idea/misc.xml
+!.idea/modules.xml
+
+# VSCode
+.vscode/
+
+# Editor-based HTTP Client requests (JetBrains)
+httpRequests/
+
+# Datasource local storage (JetBrains)
+.idea/dataSources/
+.idea/dataSources.local.xml
+
+# Local IDE state
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/shelf/
+.idea/dictionaries/
+.idea/usage.statistics.xml
+.idea/assetWizardSettings.xml
+
+# ───── Jupyter Notebook checkpoints ─────
+.ipynb_checkpoints/
+
+# ───── Logs and cache ─────
+*.log
+*.cache/
+.cache/
+.mypy_cache/
+
+# ───── Build / packaging ─────
+build/
+dist/
+*.egg-info/
+*.spec
+
+# ───── Coverage and test ─────
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+
+# ───── Pip installer logs ─────
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ───── Custom bot data folder (if applicable) ─────
+data/
+
